@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub & LinkedIn Hands-on Session</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id="Home">Event</a>
+    </nav>
+    <div id="poster">
+        <img src="img.jpg" alt="Event Poster">
+        <h1>GitHub & LinkedIn Hands-on Session</h1>
+    </div>
+
+    <div class="container">
+        <div id="description">
+            <p>Hosted By</p>
+            <p>Narayana Moorthy</p>
+            <p>1st January, 2025 18:00 onwards</p>
+        </div>
+        
+        <form id="registration-form" 
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycby_HMUPVzJNFoi5H-PGZ8JORsiSekH-uTFPvPrWVgFmGaOvNb9t_3bfeTnF821Tn7nPaA/exec"
+        onsubmit="submitForm(event)">
+            <input type="datetime-local" id="Date" placeholder="Date of Registration" required>
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="tel" name="Contact" placeholder="Contact" required>
+            <input type="text" name="College" placeholder="College" required>
+            <input type="text" name="Branch" placeholder="Branch" required>
+            <input type="text" name="Year" placeholder="Year" required>
+            <button type="submit" id="button">Register</button>
+        </form>
+
+        <div id="other-details">
+            <p>About the event:</p>
+            <p>Learn how to enhance your GitHub and LinkedIn profiles with hands-on guidance.</p>
+            <p>Don't miss this chance to improve your online presence!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
