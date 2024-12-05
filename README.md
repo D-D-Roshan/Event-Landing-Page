@@ -12,7 +12,7 @@ JavaScript
 Google Apps Script  
 Google Sheets API  
 ### Setup and Installation  
-1. Clone the repository:  'https://github.com/Ruchi-Mankar/SoarX-WebDevInternApplicationTask2.git'  
+1. Clone the repository:  'https://github.com/D-D-Roshan/Event-Landing-Page.git'  
 2. Open the index.html file in a web browser to view the landing page.  
 ### Google Apps Script Setup  
 1. Create a new Google Apps Script project.  
@@ -62,6 +62,6 @@ function doPost (e) {
 3. Deploy the Google Apps Script web app and obtain the web app URL.  
 4. Update the scriptURL variable in the JavaScript code with the web app URL.  
 ### Website  
-https://ruchi-mankar.github.io/SoarX-WebDevInternApplicationTask2/  
+ 
 ### Google Sheet:  
-https://docs.google.com/spreadsheets/d/1zJRKtUyL0Es8bFpp6T657-gILaKRU-br72NF0lt5SXI/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1Y0f3wDaifxm2hxb2y5xL8zivOvdCyPuxywgl241yIEg/edit?usp=sharing
