@@ -61,7 +61,8 @@ function doPost (e) {
 ```   
 3. Deploy the Google Apps Script web app and obtain the web app URL.  
 4. Update the scriptURL variable in the JavaScript code with the web app URL.  
-### Website  
+### Website 
+https://knowaevent.netlify.app/
  
 ### Google Sheet:  
 https://docs.google.com/spreadsheets/d/1Y0f3wDaifxm2hxb2y5xL8zivOvdCyPuxywgl241yIEg/edit?usp=sharing
